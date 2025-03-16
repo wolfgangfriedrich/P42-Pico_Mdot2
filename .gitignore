@@ -27,3 +27,30 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+
+#Added by WF 
+*.jpg
+*.bmp
+*.png
+*.xlsx
+*.zip
+*.txt
+*.docx
+*.xlsx
+
+Thumbs.db
+
+Pico_Mdot2_r1/
+Pico_Mdot2_r2/
+
+Invoice/
+Pictures/
+Code/SdFat/
+Datasheets/
+Production/
+Debug/
+
+pci*.pdf
+
+*.kicad_pcb
