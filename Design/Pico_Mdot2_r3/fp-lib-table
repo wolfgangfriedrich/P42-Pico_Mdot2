@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Libraries")(type "KiCad")(uri "W:/Wolfgang/My Projects/P42-Pico_Mdot2/Design/lib")(options "")(descr ""))
+  (lib (name "NGFF")(type "KiCad")(uri "W:/Wolfgang/My Projects/KiCAD_Libraries/NGFF.pretty")(options "")(descr ""))
+)

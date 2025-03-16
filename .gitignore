@@ -11,11 +11,13 @@
 *.kicad_prl
 *.sch-bak
 *~
+*.lck
 _autosave-*
 *.tmp
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
+*.json
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -39,6 +41,7 @@ fp-info-cache
 *.docx
 *.xlsx
 
+
 Thumbs.db
 
 Pico_Mdot2_r1/
@@ -50,6 +53,8 @@ Code/SdFat/
 Datasheets/
 Production/
 Debug/
+Documentation/
+
 
 pci*.pdf
 
