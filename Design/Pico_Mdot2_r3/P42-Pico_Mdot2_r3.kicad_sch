@@ -9246,7 +9246,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Green"
+		(property "Value" "Yellow"
 			(at 238.76 227.33 90)
 			(effects
 				(font
@@ -9273,7 +9273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED GREEN CLEAR 0603 SMD"
+		(property "Description" "LED YELLOW CLEAR 0603 SMD"
 			(at 237.49 226.06 0)
 			(effects
 				(font
@@ -9291,7 +9291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "150060GS75000"
+		(property "Mfr PN" "150060YS75000"
 			(at 237.49 226.06 0)
 			(effects
 				(font
@@ -9309,7 +9309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr1 PN" "SZYY0603G"
+		(property "Mfr1 PN" "SZYY0603Y"
 			(at 237.49 226.06 0)
 			(effects
 				(font
@@ -9318,7 +9318,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C434420"
+		(property "JLCPCB #" "C434424"
 			(at 237.49 226.06 0)
 			(effects
 				(font
@@ -9327,7 +9327,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C434420"
+		(property "LCSC Part #" "C434424"
 			(at 237.49 226.06 0)
 			(effects
 				(font
@@ -9850,7 +9850,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Green"
+		(property "Value" "Yellow"
 			(at 257.81 219.71 90)
 			(effects
 				(font
@@ -9877,7 +9877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED GREEN CLEAR 0603 SMD"
+		(property "Description" "LED YELLOW CLEAR 0603 SMD"
 			(at 256.54 218.44 0)
 			(effects
 				(font
@@ -9895,7 +9895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "150060GS75000"
+		(property "Mfr PN" "150060YS75000"
 			(at 256.54 218.44 0)
 			(effects
 				(font
@@ -9913,7 +9913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr1 PN" "SZYY0603G"
+		(property "Mfr1 PN" "SZYY0603Y"
 			(at 256.54 218.44 0)
 			(effects
 				(font
@@ -9922,7 +9922,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C434420"
+		(property "JLCPCB #" "C434424"
 			(at 256.54 218.44 0)
 			(effects
 				(font
@@ -9931,7 +9931,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C434420"
+		(property "LCSC Part #" "C434424"
 			(at 256.54 218.44 0)
 			(effects
 				(font
