@@ -25,4 +25,4 @@ Main Components
 
 ![Board Front side](https://github.com/wolfgangfriedrich/P42-Pico_Mdot2/blob/main/Images/Front2.jpg)
 
-![Board Pinout](https://github.com/wolfgangfriedrich/P42-Pico_Mdot2/blob/main/Images/Pico2 M.2 Pinout.jpg)
+![Board Pinout](https://github.com/wolfgangfriedrich/P42-Pico_Mdot2/blob/main/Images/Pico2%20M.2%20Pinout.jpg)
