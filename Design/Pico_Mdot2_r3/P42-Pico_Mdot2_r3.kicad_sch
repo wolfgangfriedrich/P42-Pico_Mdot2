@@ -11,7 +11,7 @@
 		(company "P42 Electronics Design")
 		(comment 1 "(c) 2023 Wolfgang Friedrich")
 		(comment 3 "Released under:")
-		(comment 4 "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)")
+		(comment 4 "CERN Open Hardware Licence Version 2 - Weakly Reciprocal")
 	)
 	(lib_symbols
 		(symbol "Connector:Micro_SD_Card_Det2"
@@ -6495,7 +6495,7 @@
 		(at 331.47 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "059b4a5a-494b-4012-85bd-8aa969323778")
@@ -6675,7 +6675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CONN MICRO SD CARD PUSH-PULL R/A"
+		(property "Description" "CONN MICRO SD CARD R/A SMD"
 			(at 375.92 160.02 0)
 			(effects
 				(font
@@ -6694,6 +6694,24 @@
 			)
 		)
 		(property "JLCPCB #" "C585350"
+			(at 375.92 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Molex"
+			(at 375.92 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr PN" "104031-0811"
 			(at 375.92 160.02 0)
 			(effects
 				(font
@@ -6844,6 +6862,15 @@
 			)
 		)
 		(property "LCSC Part #" "C326556"
+			(at 175.26 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #2" "C170151"
 			(at 175.26 222.25 0)
 			(effects
 				(font
@@ -7659,6 +7686,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #2" "C170151"
+			(at 127 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e43727a5-35cd-4cd5-86da-7cb81fe50912")
 		)
@@ -7774,6 +7810,15 @@
 			)
 		)
 		(property "LCSC Part #" "C326556"
+			(at 203.2 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #2" "C170151"
 			(at 203.2 222.25 0)
 			(effects
 				(font
@@ -8204,7 +8249,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 256.54 213.36 0)
+		(at 237.49 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8212,7 +8257,7 @@
 		(dnp no)
 		(uuid "421d4f95-ca64-47d5-b634-84a0a6463207")
 		(property "Reference" "R4"
-			(at 260.35 212.09 0)
+			(at 241.3 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8220,7 +8265,7 @@
 			)
 		)
 		(property "Value" "10K0"
-			(at 260.35 214.63 0)
+			(at 241.3 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8228,7 +8273,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 256.54 213.36 0)
+			(at 237.49 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8237,7 +8282,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 256.54 213.36 0)
+			(at 237.49 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8246,7 +8291,7 @@
 			)
 		)
 		(property "Description" "Res, 10K0, 1%, 0.625W, 0402"
-			(at 256.54 213.36 0)
+			(at 237.49 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8255,7 +8300,7 @@
 			)
 		)
 		(property "BOM Description" ""
-			(at 256.54 213.36 0)
+			(at 237.49 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8264,7 +8309,7 @@
 			)
 		)
 		(property "Mfr" "generic"
-			(at 256.54 213.36 0)
+			(at 237.49 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8273,7 +8318,7 @@
 			)
 		)
 		(property "Mfr PN" "na"
-			(at 256.54 213.36 0)
+			(at 237.49 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8282,7 +8327,7 @@
 			)
 		)
 		(property "Mfr1" "generic"
-			(at 256.54 213.36 0)
+			(at 237.49 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8291,7 +8336,7 @@
 			)
 		)
 		(property "Mfr1 PN" "na"
-			(at 256.54 213.36 0)
+			(at 237.49 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8300,7 +8345,7 @@
 			)
 		)
 		(property "JLCPCB #" "C25744"
-			(at 256.54 213.36 0)
+			(at 237.49 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8309,7 +8354,7 @@
 			)
 		)
 		(property "LCSC Part #" "C25744"
-			(at 256.54 213.36 0)
+			(at 237.49 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8536,6 +8581,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #2" "C170151"
+			(at 99.06 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f224cc3c-a2df-4c20-b5ca-6e6586e6ee3a")
 		)
@@ -8553,7 +8607,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 237.49 220.98 0)
+		(at 256.54 213.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8561,7 +8615,7 @@
 		(dnp no)
 		(uuid "4917cd3f-6788-4f00-a882-ce39b7320fb8")
 		(property "Reference" "R3"
-			(at 241.3 219.71 0)
+			(at 260.35 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8569,7 +8623,7 @@
 			)
 		)
 		(property "Value" "10K0"
-			(at 241.3 222.25 0)
+			(at 260.35 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8577,7 +8631,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 237.49 220.98 0)
+			(at 256.54 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8586,7 +8640,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 220.98 0)
+			(at 256.54 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8595,7 +8649,7 @@
 			)
 		)
 		(property "Description" "Res, 10K0, 1%, 0.625W, 0402"
-			(at 237.49 220.98 0)
+			(at 256.54 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8604,7 +8658,7 @@
 			)
 		)
 		(property "BOM Description" ""
-			(at 237.49 220.98 0)
+			(at 256.54 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8613,7 +8667,7 @@
 			)
 		)
 		(property "Mfr" "generic"
-			(at 237.49 220.98 0)
+			(at 256.54 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8622,7 +8676,7 @@
 			)
 		)
 		(property "Mfr PN" "na"
-			(at 237.49 220.98 0)
+			(at 256.54 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8631,7 +8685,7 @@
 			)
 		)
 		(property "Mfr1" "generic"
-			(at 237.49 220.98 0)
+			(at 256.54 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8640,7 +8694,7 @@
 			)
 		)
 		(property "Mfr1 PN" "na"
-			(at 237.49 220.98 0)
+			(at 256.54 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8649,7 +8703,7 @@
 			)
 		)
 		(property "JLCPCB #" "C25744"
-			(at 237.49 220.98 0)
+			(at 256.54 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8658,7 +8712,7 @@
 			)
 		)
 		(property "LCSC Part #" "C25744"
-			(at 237.49 220.98 0)
+			(at 256.54 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9230,7 +9284,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 237.49 226.06 90)
+		(at 256.54 218.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9238,7 +9292,7 @@
 		(dnp no)
 		(uuid "6ae27057-97b5-48af-90d5-124b961cc284")
 		(property "Reference" "D1"
-			(at 238.76 224.79 90)
+			(at 257.81 217.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9247,7 +9301,7 @@
 			)
 		)
 		(property "Value" "Yellow"
-			(at 238.76 227.33 90)
+			(at 257.81 219.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9256,7 +9310,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 237.49 226.06 90)
+			(at 256.54 218.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9265,7 +9319,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 226.06 90)
+			(at 256.54 218.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9274,7 +9328,7 @@
 			)
 		)
 		(property "Description" "LED YELLOW CLEAR 0603 SMD"
-			(at 237.49 226.06 0)
+			(at 256.54 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9283,7 +9337,7 @@
 			)
 		)
 		(property "Mfr" "Würth"
-			(at 237.49 226.06 0)
+			(at 256.54 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9292,7 +9346,7 @@
 			)
 		)
 		(property "Mfr PN" "150060YS75000"
-			(at 237.49 226.06 0)
+			(at 256.54 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9301,7 +9355,7 @@
 			)
 		)
 		(property "Mfr1" "Yongyu Photoelectric"
-			(at 237.49 226.06 0)
+			(at 256.54 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9310,7 +9364,7 @@
 			)
 		)
 		(property "Mfr1 PN" "SZYY0603Y"
-			(at 237.49 226.06 0)
+			(at 256.54 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9319,7 +9373,7 @@
 			)
 		)
 		(property "JLCPCB #" "C434424"
-			(at 237.49 226.06 0)
+			(at 256.54 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9328,7 +9382,7 @@
 			)
 		)
 		(property "LCSC Part #" "C434424"
-			(at 237.49 226.06 0)
+			(at 256.54 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9834,7 +9888,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 256.54 218.44 90)
+		(at 237.49 226.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9842,7 +9896,7 @@
 		(dnp no)
 		(uuid "8d3d97b2-9254-4be9-8732-e66e4b5a8386")
 		(property "Reference" "D2"
-			(at 257.81 217.17 90)
+			(at 238.76 224.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9851,7 +9905,7 @@
 			)
 		)
 		(property "Value" "Yellow"
-			(at 257.81 219.71 90)
+			(at 238.76 227.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9860,7 +9914,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 256.54 218.44 90)
+			(at 237.49 226.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9869,7 +9923,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 256.54 218.44 90)
+			(at 237.49 226.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9878,7 +9932,7 @@
 			)
 		)
 		(property "Description" "LED YELLOW CLEAR 0603 SMD"
-			(at 256.54 218.44 0)
+			(at 237.49 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9887,7 +9941,7 @@
 			)
 		)
 		(property "Mfr" "Würth"
-			(at 256.54 218.44 0)
+			(at 237.49 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9896,7 +9950,7 @@
 			)
 		)
 		(property "Mfr PN" "150060YS75000"
-			(at 256.54 218.44 0)
+			(at 237.49 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9905,7 +9959,7 @@
 			)
 		)
 		(property "Mfr1" "Yongyu Photoelectric"
-			(at 256.54 218.44 0)
+			(at 237.49 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9914,7 +9968,7 @@
 			)
 		)
 		(property "Mfr1 PN" "SZYY0603Y"
-			(at 256.54 218.44 0)
+			(at 237.49 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9923,7 +9977,7 @@
 			)
 		)
 		(property "JLCPCB #" "C434424"
-			(at 256.54 218.44 0)
+			(at 237.49 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9932,7 +9986,7 @@
 			)
 		)
 		(property "LCSC Part #" "C434424"
-			(at 256.54 218.44 0)
+			(at 237.49 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10449,7 +10503,7 @@
 		(at 306.07 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a1f88ad9-230c-4a00-9263-5b1f3234ea5c")
@@ -11947,6 +12001,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #2" "C85833"
+			(at 104.14 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "760be5b7-526d-4c86-909d-21f587decbb3")
 		)
@@ -12675,7 +12738,7 @@
 		(at 309.88 172.72 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f3cd2452-b94c-471a-9317-84e7c93c7fca")
@@ -12750,7 +12813,7 @@
 		(at 99.06 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f46f5834-63ab-4af2-8c85-1a7c613fe517")
@@ -13286,6 +13349,15 @@
 			)
 		)
 		(property "LCSC Part #" "C5336707"
+			(at 259.08 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #2" "C308741 "
 			(at 259.08 226.06 0)
 			(effects
 				(font
