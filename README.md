@@ -22,3 +22,7 @@ Main Components
 *	12 MHz Crystal SMD_3225-4Pin_3.2x2.5mm
 *	MicroSD card holder Molex 104031-0811
 *	1.8V-3.3V High Speed level shifter Texas Instruments TXS0102DQM
+
+![Board Front side](https://github.com/wolfgangfriedrich/P42-Pico_Mdot2/blob/main/Images/Front2.jpg)
+
+![Board Pinout](https://github.com/wolfgangfriedrich/P42-Pico_Mdot2/blob/main/Images/Pico2 M.2 Pinout.png)
