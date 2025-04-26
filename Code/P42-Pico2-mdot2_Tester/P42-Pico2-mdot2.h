@@ -11,8 +11,8 @@
 #ifndef P42Pico2_mdot2_h
 #define P42Pico2_mdot2_h
 
-#define PICO_MDOT2_VERSION " V0.2"
-#define PICO_MDOT2_VERSION_DATE "11. Mar 2025"
+#define PICO_MDOT2_VERSION " V1.0"
+#define PICO_MDOT2_VERSION_DATE "26. April 2025"
 
 // Board Features
 #define TP15           0

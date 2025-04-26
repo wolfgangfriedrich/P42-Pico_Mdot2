@@ -383,11 +383,18 @@ int8_t I2C_scan( uint8_t bus_nr )
 //----------------------------------------------------------------------
 // Scan the GPIO pin for level high, low or open
 // return 2(hi),-1(lo),0(open)
+// !!! VERY EXPERIMENTAL !!!
+// with work-around for E9 Erratum 
 int8_t Mdot2_IO_scan(int8_t GPIO)
 {
 int8_t GPIO_level, GPIO_value;
 
   GPIO_level = 0;
+
+  // pinMode(GPIO, OUTPUT);
+  // digitalWrite(GPIO, '0');
+  // delay(10);
+
   pinMode(GPIO, INPUT_PULLUP);
   GPIO_value = digitalRead(GPIO);
 //  delay(100);
@@ -402,6 +409,11 @@ int8_t GPIO_level, GPIO_value;
     default:
       break;
   }
+
+  // pinMode(GPIO, OUTPUT);
+  // digitalWrite(GPIO, '1');
+  // delay(10);
+
   pinMode(GPIO, INPUT_PULLDOWN);
   GPIO_value = digitalRead(GPIO);
 //  delay(100);

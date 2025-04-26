@@ -55,8 +55,7 @@ Datasheets/
 Production/
 Debug/
 Documentation/
-
+Order/
 
 pci*.pdf
 
-*.kicad_pcb
